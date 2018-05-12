@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Paperspace Monitor",
   "short_name": "Paperspace Monitor",
-  "description": "Alerts you once an hour when you have Paperspace instances active. Never accidentally leave your Paperspace instances on.",
+  "description": "Alerts you once an hour if you have Paperspace instances active. Never accidentally leave your Paperspace instances on.",
   "version": "1.0.0",
   "author": "@zachcaceres",
   "browser_action": {

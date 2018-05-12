@@ -4,7 +4,8 @@
   "description": "Make sure you dont leave your Paperspace instances running",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prod": "webpack -p --progress && ./zip.sh"
   },
   "author": "@zachcaceres",
   "license": "MIT",
