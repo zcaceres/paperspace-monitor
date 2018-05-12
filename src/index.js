@@ -1,6 +1,7 @@
 const axios = require('axios');
 const { notifications } = require('./utils');
 const extensionHelpers = require('extension-helpers').default
+const ALARM_NAME = 'paperspace';
 
 function getCookie(key) {
   return new Promise((resolve, reject) => {
@@ -34,7 +35,6 @@ function checkForInstances() {
   .catch(err => console.error(err));
 }
 
-const ALARM_NAME = 'paperspace';
 chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === ALARM_NAME) checkForInstances();
 })
