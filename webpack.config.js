@@ -12,6 +12,10 @@ module.exports = env => {
           from: 'manifest.json',
           to: 'manifest.json'
         },
+        {
+          from: 'assets',
+          to: 'assets'
+        },
       ])
     ]
   }
